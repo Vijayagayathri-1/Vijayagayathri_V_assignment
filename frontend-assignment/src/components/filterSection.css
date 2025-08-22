@@ -1,0 +1,52 @@
+.filter-section {
+  padding: 1.5rem;
+  background-color: var(--card-bg-light);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.dark .filter-section {
+  background-color: var(--card-bg-dark);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.filter-section h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: var(--light-text-color);
+}
+
+.dark .filter-section h3 {
+  color: var(--dark-text-color);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.filter-group select,
+.filter-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--border-color-light);
+  background-color: transparent; 
+  color: var(--light-text-color);
+  font-size: 1rem;
+}
+
+.dark .filter-group select,
+.dark .filter-group input {
+  border-color: var(--border-color-dark);
+  color: var(--dark-text-color);
+}
