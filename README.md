@@ -1,4 +1,3 @@
-
 Event Service Booking Interface
 This is a web application for browsing and booking various event services like DJs, Photographers, and Caterers. This project showcases a responsive user interface built with React, focusing on clean code, a great user experience, and modern front-end practices.
 
@@ -22,29 +21,35 @@ Open your terminal or command prompt and run the following command to download t
 Bash
 
 git clone [repository-url]
+
 2. Navigate to the project folder
 Change your current directory to the project folder:
 
 Bash
 
 cd [project-folder-name]
+
 3. Install dependencies
 This command installs all the necessary libraries and packages needed for the project to run:
 
 Bash
 
 npm install
-# or
+or
 yarn install
+
 4. Start the development server
 This command will start the application on your computer, usually at http://localhost:3000 in your web browser.
 
 Bash
 
 npm start
-# or
+or
 npm run dev
-Technical Details
+
+
+
+# Technical Details
 This project was built using the following technologies:
 
 React: The core JavaScript library for building the user interface.
